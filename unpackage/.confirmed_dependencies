@@ -1,0 +1,99 @@
+{
+	"index3.html": {
+		"resources": [
+			"css/index3.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"js/ajax.js",
+			"img/logo.png",
+			"css/mui.css",
+			"index2.html",
+			"index1.html",
+			"list.html"
+		],
+		"refer": [
+			"index2.html",
+			"index1.html",
+			"list.html"
+		]
+	},
+	"index2.html": {
+		"resources": [
+			"js/list.js",
+			"css/index2.css",
+			"index1.html",
+			"js/mui.min.js",
+			"js/ajax.js",
+			"img/logo.png",
+			"css/mui.css",
+			"index3.html",
+			"img/4.bmp",
+			"img/3.bmp",
+			"img/2.bmp",
+			"img/5.bmp",
+			"img/1.bmp",
+			"js/type.js"
+		],
+		"refer": [
+			"index1.html",
+			"index3.html"
+		]
+	},
+	"index1.html": {
+		"resources": [
+			"img/banner5.jpg",
+			"img/1.bmp",
+			"img/3.bmp",
+			"img/banner4.jpg",
+			"img/6.bmp",
+			"css/index1.css",
+			"img/banner1.jpg",
+			"img/logo_footer.png",
+			"img/banner3.jpg",
+			"img/4.bmp",
+			"img/5.bmp",
+			"img/banner2.jpg",
+			"img/2.bmp",
+			"img/h1.jpg",
+			"img/h2.jpg",
+			"index2.html",
+			"index3.html"
+		],
+		"refer": [
+			"index2.html",
+			"index3.html"
+		]
+	},
+	"list.html": {
+		"resources": [
+			"css/list.css",
+			"js/list.js",
+			"song.html",
+			"img/music.bmp",
+			"index3.html",
+			"fonts/mui.ttf",
+			"index2.html"
+		],
+		"refer": [
+			"song.html",
+			"index3.html",
+			"index2.html"
+		]
+	},
+	"song.html": {
+		"resources": [
+			"img/start.bmp",
+			"js/song.js",
+			"css/song.css",
+			"img/stop.bmp",
+			"js/mui.min.js",
+			"js/ajax.js",
+			"list.html",
+			"css/mui.css",
+			"img/logo1.bmp"
+		],
+		"refer": [
+			"list.html"
+		]
+	}
+}

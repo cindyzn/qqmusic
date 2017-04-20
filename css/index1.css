@@ -1,0 +1,101 @@
+
+.music_logo {
+    float: left;
+    display: block;
+    width: 90px;
+    height: 25px;
+    margin: 9px 0 0 10px;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+.btn_download {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: 8px;
+    height: 28px;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 99px;
+    font-size: 14px;
+    background: #149c5a;
+    color: #fff;
+}
+
+	.btn {
+    font-size: 15px;
+    font-weight: 400;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    table-layout: fixed;
+    border-radius: 3px;
+    background-color: white;
+    -webkit-touch-callout: none;
+}
+.btn .btn-item {
+    line-height: 38px;
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color:#000000;
+}
+.btn .btn-active{
+	border-bottom: 2px solid #31c27c;
+    color:#31c27c;
+}
+.list_title{    
+	font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: normal;
+    line-height: 20px;
+    padding-left:15px;
+}
+
+.list_more {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:black;
+}
+.list_more a{
+    color:gray;
+}
+
+.check{
+	color:#000000;
+	font-size:14px;
+}
+.version_tab {
+    text-align: center;
+}
+.footer_logo {
+    display: block;
+    width: 84px;
+    height: 24px;
+    margin: 20px auto 10px;
+    background-image: url(../img/logo_footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+  
+}
+
+footer p{
+    font-size: 10px;
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    line-height:10px;
+}
+.copyright{
+	padding-bottom:30px;
+}
+

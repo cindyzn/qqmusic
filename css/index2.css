@@ -1,0 +1,137 @@
+
+.music_logo {
+    float: left;
+    display: block;
+    width: 90px;
+    height: 25px;
+    margin: 9px 0 0 10px;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+}
+.btn_download {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: 8px;
+    height: 28px;
+    padding: 0 12px;
+    line-height: 28px;
+    border-radius: 99px;
+    font-size: 14px;
+    background: #149c5a;
+    color: #fff;
+}
+
+	.btn {
+    font-size: 15px;
+    font-weight: 400;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    table-layout: fixed;
+    border-radius: 3px;
+    background-color: white;
+    -webkit-touch-callout: none;
+}
+.btn .btn-item {
+    line-height: 38px;
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    -webkit-transition: background-color .1s linear;
+    transition: background-color .1s linear;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color:#000000;
+}
+.btn .btn-active{
+	border-bottom: 2px solid #31c27c;
+    color:#31c27c;
+}
+.list_title{    
+	font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: normal;
+    line-height: 20px;
+    padding-left:15px;
+}
+
+.list_more {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:black;
+    font-size:14px;
+}
+.list_more a{
+    color:gray;
+}
+
+
+
+.list-right i{
+	width:15px;
+	float:right;
+	margin-top:-10px;
+	font-size:20px;
+	color:darkgray;
+}
+
+.mui-table-view .mui-media, .mui-table-view .mui-media-body {
+    background: white;
+   box-sizing: border-box;
+    margin:10px;
+	padding:0;
+}
+.mui-table-view-cell > a:not(.mui-btn) {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: inherit;
+    margin:0;
+    box-sizing: border-box;
+}
+.mui-table-view-cell .mui-media-object{
+	width:100px;
+	height:100px;
+	line-height: 100px;
+	max-width: 100px;
+	padding:0;
+}
+.mui-table-view-cell .mui-media-body{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+	margin-top:10px;
+	margin-left:20px;
+}
+.mui-table-view-cell .mui-media-body h4{
+	font-weight: normal;
+	font-size:16px;
+	margin:0;
+	margin-left:105px;
+	padding-bottom:10px;
+	
+}
+.mui-table-view-cell .mui-media-body p{
+	
+	padding-left:15px;
+	
+}
+.mui-table-view-cell .mui-ellipsis{
+	color:#000000;
+	
+}
+.mui-table-view-cell .gt{
+	float:right;
+	font-size:20px;
+	margin-right:10px;
+	color:#8f8f94;
+	margin-top:10px
+}
